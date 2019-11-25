@@ -19,38 +19,12 @@
 	</properties>  
 
 	<dependencies>
-	 	<!-- 
-		<dependency>
-		    <groupId>net.sf.jasperreports</groupId>
-		    <artifactId>jasperreports</artifactId>
-		    <version>6.9.0</version>
-		</dependency>
- -->
+
 		<dependency>
 			<groupId>io.dropwizard</groupId>
 			<artifactId>dropwizard-core</artifactId>
 			<version>${dropwizard.version}</version>
 		</dependency>
-<!-- 
-		<dependency>
-			<groupId>io.dropwizard</groupId>
-			<artifactId>dropwizard-auth</artifactId>
-			<version>${dropwizard.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>io.dropwizard</groupId>
-			<artifactId>dropwizard-db</artifactId>
-			<version>${dropwizard.version}</version>
-		</dependency>
-
-
-		<dependency>
-			<groupId>io.dropwizard</groupId>
-			<artifactId>dropwizard-hibernate</artifactId>
-			<version>${dropwizard.version}</version>
-		</dependency>
- -->		
 		<dependency>
 		    <groupId>io.dropwizard</groupId>
 		    <artifactId>dropwizard-forms</artifactId>
@@ -110,8 +84,7 @@
 		<dependency>
 			<groupId>com.graphhopper</groupId>
 			<artifactId>graphhopper-map-matching-web-bundle</artifactId>
-			<!--  <version>0.11.0-4</version> -->
-			<version>0.12.0-3</version>
+			<version>${graphhopper-map-matching-version}</version>
 		</dependency>
 
 		<dependency>
@@ -120,46 +93,6 @@
 			<version>${graphhopper.version}</version>
 		</dependency>
 
-
-
-										
-																  
-	<!-- 							 
-			   
-		<dependency>
-		    <groupId>io.dropwizard-bundles</groupId>
-		    <artifactId>dropwizard-configurable-assets-bundle</artifactId>
-		    <version>${dropwizard-configurable-assets-bundle}</version>
-		</dependency>
-
-
-		<dependency>
-			<groupId>io.dropwizard</groupId>
-			<artifactId>dropwizard-testing</artifactId>
-			<version>${dropwizard.version}</version>
-			<scope>test</scope>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
-		
-		<dependency>
-		    <groupId>org.hibernate</groupId>
-		    <artifactId>hibernate-spatial</artifactId>
-		    <version>${hibernate.version}</version>
-		</dependency>
-	
-	
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-ehcache</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
-  -->
 
 	</dependencies>
 
