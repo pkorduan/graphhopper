@@ -10,7 +10,7 @@
 		<dropwizard.version>1.3.9</dropwizard.version>
 		<dropwizard-configurable-assets-bundle>1.3.5</dropwizard-configurable-assets-bundle>
 	
-		<graphhopper.version>0.12.0</graphhopper.version>		   
+		<graphhopper.version>3.2</graphhopper.version>		   
 		<graphhopper-map-matching-version>0.12.0-3</graphhopper-map-matching-version>
 		
 		<hibernate.version>5.4.2.Final</hibernate.version>		
