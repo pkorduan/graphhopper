@@ -14,7 +14,7 @@
 		<graphhopper-map-matching-version>0.12.0-3</graphhopper-map-matching-version>
 		
 		<hibernate.version>5.4.2.Final</hibernate.version>		
-		<jackson.version>2.9.6</jackson.version>
+		<jackson.version>2.12.7.1</jackson.version>
 		
 	</properties>  
 
